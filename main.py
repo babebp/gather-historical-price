@@ -6,3 +6,4 @@ if __name__ == '__main__':
     api = OandaApi()    
     instrumentCollection.LoadInstruments("./data")
     run_collection(instrumentCollection, api)
+    
